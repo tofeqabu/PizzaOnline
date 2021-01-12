@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>סל קניות</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="images/fork.png">
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.js"
+    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+  </head>
+  <body>
+
+    <!-- Navigation -->
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+            <a href="index.html">
+            <img src="images/pizzaonline-logo.png" alt="pizzaonline-logo">
+            </a>
+            <div class="navbar-burger" data-target="navMenu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+        <div class="navbar-menu" id="navMenu">
+
+                <div class="navbar-end">
+                  <a href="menu.html" class="navbar-item zoom">תפריט</a>
+                  <a href="mycart.html" class="navbar-item zoom">סל הקניות</a>
+                  <a href="feedback.html" class="navbar-item zoom">FEEDBACK</a>
+
+                  <a href="login.html" class="navbar-item zoom">כניסה לחשבון</a>
+                </div>
+
+        </div>
+    </nav>
+
+<!-- Main container -->
+
+  <section class="section">
+    <div class="container topic">
+      <h1 class="title">
+        סל הקניות
+      </h1>
+    </div>
+
+
+  </section>
+
+  <section class="section">
+        <div class="container">
+
+            <div class="columns">
+                <div class="column is-one-half" id="cartbox">
+                    <div class="columns">
+                        <div class="column">
+
+                            <div class="box">
+                                    <article class="media">
+                                      <div class="media-left">
+                                        <figure class="image is-128x128">
+                                          <img src="https://bulma.io/images/placeholders/128x128.png" alt="Image">
+                                        </figure>
+                                      </div>
+                                      <div class="media-content">
+                                        <div class="content">
+                                        <h2>מרגריתה</h2>
+                                        <p>עגבניות, מוצרילה, פזיליקה</p>
+                                        <p>גודל: בינוני</p>
+                                        <h2 class="price">40</h2>
+                                        <div class="column btnColumn">
+                                              <input type="button " class="button btnCancel zoom" value="ביטול">
+                                            </div>
+                                        </div>
+                                     </div>
+                            </div>
+
+
+                            <div class="box">
+                                    <article class="media">
+                                      <div class="media-left">
+                                        <figure class="image is-128x128">
+                                          <img src="https://bulma.io/images/placeholders/128x128.png" alt="Image">
+                                        </figure>
+                                      </div>
+                                      <div class="media-content">
+                                        <div class="content">
+                                        <h2>סלאמי</h2>
+                                        <p>סלאמי, פפריקה, גילפינו</p>
+                                        <p>גודל: בינוני</p>
+                                        <h2 class="price">37</h2>
+                                        <div class="column btnColumn">
+                                                <input type="button " class="button btnCancel zoom" value="ביטול">
+                                            </div>
+                                        </div>
+                                     </div>
+                            </div>
+
+                            <div class="box">
+                                    <article class="media">
+                                      <div class="media-left">
+                                        <figure class="image is-128x128">
+                                          <img src="https://bulma.io/images/placeholders/128x128.png" alt="Image">
+                                        </figure>
+                                      </div>
+                                      <div class="media-content">
+                                        <div class="content">
+                                        <h2>בשר טחון</h2>
+                                        <p>בשר טחון</p>
+                                        <p>גודל: גדול</p>
+
+                                        <h2 class="price">38</h2>
+                                        <div class="column btnColumn">
+                                                <input type="button " class="button btnCancel zoom" value="ביטול">
+                                            </div>
+                                        </div>
+                                     </div>
+                            </div>
+
+                        </div>
+
+                        </div>
+
+                </div>
+
+
+                <div class="column is-one-half" id="orderSide">
+                    <div class="column">
+                    <h2>רוצה לגיד משו לציף שלנו?</h2>
+                    <p class="subtitle">תשאיר הודעה מתאימה למטה</p>
+                    </div>
+                    <div class="field">
+                        <label for="" class="label">שלח הודעה</label>
+                        <div class="control">
+                            <textarea class="textarea" placeholder="כתוב הודעה כאן"></textarea>
+                    </div>
+                    </div>
+
+                    <div class="column centered">
+                      <p>בבקשה לבדוק את פרטי ההזמנה לפני להזמין, אם הכל בסדר תלחץ על הכפתור להמשיף</p>
+
+                    </div>
+
+                    <div class="column btnColumn">
+                            <input type="submit" class="button orderBtn zoom" value="הזמן עכשיו">
+                        </div>
+
+                    </div>
+
+            </div>
+        </div>
+
+      </section>
+
+      <section class="section" id="questions">
+        <div class="columns">
+            <div class="column is-one-fifth">
+            <a href="tilausinfo.html">?שאלות על ההזמנות</a>
+        </div>
+
+        </div>
+
+
+      </section>
+
+      <footer class="footer">
+        <div class="container">
+            <div class="content has-text-centered">
+                  <img src="images/pizzaonline-footer.png" alt="footer-logo">
+            </div>
+
+          <div class="container">
+              <div class="columns">
+                  <div class="column is-one-quarter footer-side left-side">
+                    <h2>סניפים קרובים</h2>
+                    <a href="">כנרת, צמח</a>
+                    <br>
+                    <a href="">טבריה</a>
+                  </div>
+
+                    <div class="column is-one-quarter">
+                        <h2>שעות פתיחה :</h2>
+                        <p>א-ש 10-23</p>
+
+
+                    </div>
+
+                    <div class="column is-one-quarter footer-side right-side">
+                        <h2> </h2>
+                        <a href="">צור קשר</a>
+                        <br>
+                        <a href="Contact.html">HERE!</a>
+                    </div>
+
+
+              </div>
+          </div>
+        </div>
+    </footer>
+
+  </body>
+
+
+</html>

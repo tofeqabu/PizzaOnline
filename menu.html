@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>תפריט</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="images/fork.png">
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.js"
+    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+  </head>
+  <body>
+
+    <!-- Navigation -->
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+            <a href="index.html">
+            <img src="images/pizzaonline-logo.png" alt="pizzaonline-logo">
+            </a>
+            <div class="navbar-burger" data-target="navMenu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+        <div class="navbar-menu" id="navMenu">
+
+                <div class="navbar-end">
+                  <a href="menu.html" class="navbar-item zoom">תפריט</a>
+                  <a href="mycart.html" class="navbar-item zoom">סל הקניות</a>
+                  <a href="feedback.html" class="navbar-item zoom">FEEDBACK</a>
+
+                  <a href="login.html" class="navbar-item zoom">כניסה לחשבון</a>
+
+        </div>
+    </nav>
+
+<!-- Main container -->
+
+  <section class="section">
+    <div class="container topic">
+      <h1 class="title">
+        תפריט
+      </h1>
+    </div>
+
+
+  </section>
+
+
+  <!-- Topic  -->
+  <section class="section topicMenu">
+    <div class="columns">
+        <div class="column is-one-quarter">
+            <h2 class="food-category active-category" id="pizzaPicker">פיצה</h2>
+        </div>
+
+        <div class="column is-one-quarter">
+            <h2 class="food-category" id="saladPicker">סלטים</h2>
+        </div>
+
+        <div class="column is-one-quarter">
+            <h2 class="food-category" id="kebabPicker">קבאב</h2>
+        </div>
+
+        <div class="column is-one-quarter">
+            <h2 class="food-category" id="otherFoodsPicker">אחר</h2>
+        </div>
+
+
+    </div>
+    </section>
+
+        <!-- Menu items, pizzas -->
+    <section class="section foodMenu pizzas" id="pizzaSection">
+        <div class="columns">
+            <div class="column is-one-third">
+                <div class="food-img is-128x128">
+                    <img src="https://www.dabruno.com/contenido/pagina163-1.jpg" alt="Image">
+                </div>
+                <h2>מרגריתה</h2>
+
+                <p>עגבניות, מוצרילה, בזיליקה</p>
+
+                <button class="button add-to-cart">הוסף לסל</button>
+            </div>
+
+            <div class="column is-one-third">
+                <div class="food-img is-128x128">
+                    <img src="https://edu-caferoma.odoo.com/web/image/product.template/80/image" alt="Image">
+                </div>
+                <h2>סלאמי</h2>
+
+                <p>סלאמי, פפריקה, גילפינו</p>
+
+                <button class="button add-to-cart">הוסף לסל</button>
+            </div>
+
+            <div class="column is-one-third">
+                <div class="food-img is-128x128">
+                    <img src="https://embed.widencdn.net/img/beef/pz4eba64j5/exact/beef-pepper-and-onion-pizza-horizontal.tif?keep=c&u=7fueml" alt="Image">
+                </div>
+                <h2>בשר טחון </h2>
+
+                <p>בשר טחון </p>
+
+                <button class="button add-to-cart">הוסך לסל</button>
+            </div>
+
+        </div>
+        </section>
+
+        <!-- Menu items, salads -->
+        <section class="section foodMenu salads" id="saladSection">
+                <div class="columns">
+                    <div class="column is-one-third">
+                        <div class="food-img is-128x128">
+                            <img src="https://www.eatwell101.com/wp-content/uploads/2019/04/Blackened-Chicken-and-Avocado-Salad-recipe-1.jpg" alt="Image">
+                        </div>
+                        <h2>סלט עוף</h2>
+
+                        <p>עוף, חסה, עגבניות, מלפפון</p>
+
+                        <button class="button add-to-cart">הוסף לסל</button>
+                    </div>
+
+                    <div class="column is-one-third">
+                        <div class="food-img is-128x128">
+                            <img src="https://www.olivetomato.com/wp-content/uploads/2019/06/Traditional-Greek-Salad-close-up.jpg" alt="Image">
+                        </div>
+                        <h2>סלט יווני</h2>
+
+                        <p> תעגבניו, מלפפון, זיתים, פיתה </p>
+
+                        <button class="button add-to-cart">הוסף לסל</button>
+                    </div>
+
+                    <div class="column is-one-third">
+                        <div class="food-img is-128x128">
+                            <img src="https://img.taste.com.au/1jAOXAA_/w720-h480-cfill-q80/taste/2016/11/mediterranean-tuna-salad-31059-1.jpeg" alt="Image">
+                        </div>
+                        <h2>סלט טונה </h2>
+
+                        <p>טונה, חסה, עגבניות, מלפפון</p>
+
+                        <button class="button add-to-cart">היסף לסל</button>
+                    </div>
+
+                </div>
+                </section>
+
+
+                <!-- Menu items, kebabs  -->
+                <section class="section foodMenu kebabs" id="kebabSection">
+                        <div class="columns">
+                            <div class="column is-one-third">
+                                <div class="food-img is-128x128">
+                                    <img src="https://www.seriouseats.com/recipes/images/2016/08/20160801-seekh-kebab-recipe-48-1500x1125.jpg" alt="Image">
+                                </div>
+                                <h2>רצועות קבאב</h2>
+
+                                <p>קבאב, אורז, סלט, רוטב</p>
+
+                                <button class="button add-to-cart">הוסף לסל</button>
+                            </div>
+
+                            <div class="column is-one-third">
+                                <div class="food-img is-128x128">
+                                    <img src="https://previews.123rf.com/images/drkokos/drkokos1706/drkokos170600091/80374209-doner-chicken-kebab-and-french-fries-typical-turkish-meal-.jpg" alt="Image">
+                                </div>
+                                <h2>קבאב עם ציפס</h2>
+
+                                <p>קבב, ציפס, סלט, רוטב</p>
+
+                                <button class="button add-to-cart">הוסף לסל</button>
+                            </div>
+
+                            <div class="column is-one-third">
+                                <div class="food-img is-128x128">
+
+                                    <img src="https://www.readersdigest.ca/wp-content/uploads/2015/11/gourmet-burger-scaled.jpg" alt="Image">
+                                </div>
+                                <h2>בורגר קבאב</h2>
+
+                                <p>קבאב, לחם</p>
+
+                                <button class="button add-to-cart">הוסף לסל</button>
+                            </div>
+
+                        </div>
+                        </section>
+
+                        <section class="section foodMenu otherFoods" id="otherFoodsSection">
+                                <div class="columns">
+                                    <div class="column is-one-third">
+                                        <div class="food-img is-128x128">
+                                            <img src="https://cdn.shopify.com/s/files/1/0084/4513/2857/files/Untitled_design_3_1024x1024.jpg?v=1567128668" alt="Image">
+                                        </div>
+                                        <h2>שיפודים עןף</h2>
+
+                                        <p>עוף, אורז\ציפס, סלט, רוטב שיפודים</p>
+
+                                        <button class="button add-to-cart">הוסף לסל</button>
+                                    </div>
+
+                                    <div class="column is-one-third">
+                                        <div class="food-img is-128x128">
+                                            <img src="https://militaryingermany.com/wp-content/uploads/2017/02/shutterstock_342125768hlphoto_4cweb-580x386.jpg" alt="Image">
+                                        </div>
+                                        <h2>סטיק</h2>
+
+                                        <p>סטיק בשר, ציפס\אורז, סלט</p>
+
+                                        <button class="button add-to-cart">הוסף לסל</button>
+                                    </div>
+
+
+                                </div>
+                                </section>
+
+
+
+        <!-- Footer -->
+        <footer class="footer">
+          <div class="container">
+              <div class="content has-text-centered">
+                    <img src="images/pizzaonline-footer.png" alt="footer-logo">
+              </div>
+
+            <div class="container">
+                <div class="columns">
+                    <div class="column is-one-quarter footer-side left-side">
+                      <h2>סניפים קרובים</h2>
+                      <a href="">כנרת, צמח</a>
+                      <br>
+                      <a href="">טבריה</a>
+                    </div>
+
+                      <div class="column is-one-quarter">
+                          <h2>שעות פתיחה :</h2>
+                          <p>א-ש 10-23</p>
+
+
+                      </div>
+
+                      <div class="column is-one-quarter footer-side right-side">
+                          <h2> </h2>
+                          <a href="">צור קשר</a>
+                          <br>
+                          <a href="Contact.html">HERE!</a>
+                      </div>
+
+
+                </div>
+            </div>
+          </div>
+      </footer>
+
+  </body>
+
+</html>
